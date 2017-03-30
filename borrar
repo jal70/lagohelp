@@ -1,0 +1,5 @@
+if [ -e salida/procesados_salida ]
+then
+	echo "Ejecute preparar..."
+	return 1
+	fi

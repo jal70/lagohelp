@@ -1,0 +1,10 @@
+Esta es la secuencia de la primera parte de la extracción de los datos:
+revisa -> prepara descompresion -> descomprimir -> revisa -> extraerparticulas
+
+Ya estamos ready con los scripts. Hay que probarlos en un ejemplo. <- sigue pendiente 13/03/17
+Queda pendiente revisar nombres de archivos de datos extraidos.
+
+Listo el script que saca partículas (extraer) 13/03/17
+
+Falta: Luego seguiremos con el script de histograma rápido.
+awk '/^[^#]/' muones.dat |awk -f dist_energia.awk| column -t
