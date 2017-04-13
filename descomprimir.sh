@@ -7,7 +7,7 @@ do
 	NUMBEROFFILES=$2
 	;;
 	-h)
-	echo "USO: $nohup ./descomprimir.sh -n numero_de_archivos_a_descomprimir &"
+	echo "USO: $ nohup ./descomprimir.sh -n numero_de_archivos_a_descomprimir &"
 	exit 0
 	esac
 	# Shift all the parameters down by one
